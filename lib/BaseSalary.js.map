@@ -1,0 +1,1 @@
+{"version":3,"file":"BaseSalary.js","sourceRoot":"","sources":["../src/BaseSalary.ts"],"names":[],"mappings":";;;AAAA,MAAa,UAAU;CAEtB;AAFD,gCAEC","sourcesContent":["export class BaseSalary {\r\n    \r\n}"]}
