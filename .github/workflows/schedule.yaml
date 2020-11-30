@@ -1,0 +1,18 @@
+name: CI
+on:
+schedule:
+cron: '0 0 * * *'
+workflow_dispatch:
+jobs:
+e2e-tests:
+run-on: windows-latest
+steps:
+- uses: actions/checkout@v2
+- name: Use Node.js 12
+uses: actions/setup-node@v1
+- run: npm install
+- run: npm test
+- uses: actions/upload-artifact@v2
+with:
+name: screenshot
+path: screen.png
