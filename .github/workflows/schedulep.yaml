@@ -16,7 +16,7 @@ jobs:
   e2e-tests:
     # The type of runner that the job will run on
     runs-on: windows-latest
- # just copied from https://github.com/intro-do-riu/M3-e2e-seed
+    # just copied from https://github.com/intro-do-riu/M3-e2e-seed
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v2
