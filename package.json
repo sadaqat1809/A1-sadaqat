@@ -10,7 +10,9 @@
     "clean": "rimraf lib",
     "test": "node ./node_modules/mocha/bin/mocha lib/test/**/*test.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  },
   "devDependencies": {
     "@types/chai": "^4.1.4",
     "@types/mocha": "^5.2.5",
