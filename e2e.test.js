@@ -10,7 +10,7 @@ describe("End 2 End tests", async() => {
         await page.goto(ourUrl, { waitUntil: "networkidle2" });
         await page.waitForSelector("#next2");
         await page.click("#next2");
-        await page.waitForTimeout(5000);
+        await page.waitForTimeout(500);
         await page.screenshot({ path: 'screen.png', fullPage: true })
         await page.close();
         await browser.close();
