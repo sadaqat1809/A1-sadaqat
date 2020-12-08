@@ -27,4 +27,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: screenshot
-          path: screen.png
+          path: A1-sadaqat/screen.png
